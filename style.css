@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(35, 31, 32)
+}
+li{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    display:inline;
+    margin: 0;
+
+}
+ul{
+     list-style-type: none;
+     color: #fff;
+ }
+button{
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 125px;
+    color: white;
+    background-color: black;
+ }
+#div2{
+    display: grid;
+    justify-content: center;
+    grid-template-rows:1fr 1fr;
+    height: 400px;
+    color: white;
+    position: relative;
+    background-color: rgb(118, 205, 216);;
+}
+#h1{
+    margin: 0;
+    text-align: center;
+    align-self: end;
+    z-index: 2;
+}
+#p1{
+    width: 60%;
+    text-align: center;
+   justify-self: center; 
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400px;
+    color: rgba(247, 247, 247, 0.1);
+}
+#offers{
+    display: grid;
+    background-color: rgb(38, 56, 82);
+    grid-template-columns: repeat(5, auto);
+    height: 250px;
+}
+/* .logo{
+    position: relative;
+    height: 250px;
+} */
+#offers img{
+    min-width: 50%;
+    margin: 25%;
+}
+#offers h1{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+#offers p{
+    font-size: 8px;
+    color:white;
+}
+.slide{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
